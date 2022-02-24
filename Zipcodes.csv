@@ -26,7 +26,7 @@ Zip_code,Community,Wastewater_treatment_plant
 92025,Escondido,Encina
 92026,Escondido,Encina
 92027,Escondido,Encina
-92028,Fallbrook,Point_Loma
+92028,Fallbrook,Encina
 92029,Escondido,Encina
 92037,La Jolla,Point_Loma
 92040,Lakeside,Point_Loma
@@ -38,10 +38,9 @@ Zip_code,Community,Wastewater_treatment_plant
 92075,Solana Beach,Encina
 92078,San Marcos,Encina
 92081,Vista,Encina
-92082,Valley Center,Point_Loma
+92082,Valley Center,Encina
 92083,Vista,Encina
 92084,Vista,Encina
-92086,Warner Springs,Point_Loma
 92091,Rancho Santa Fe,Point_Loma
 92096,San Marcos,Encina
 92101,San Diego,Point_Loma
@@ -81,6 +80,6 @@ Zip_code,Community,Wastewater_treatment_plant
 92145,San Diego,Point_Loma
 92152,San Diego,Point_Loma
 92154,San Diego,South Bay
-92155,San Diego,South Bay
+92155,San Diego,Point_Loma
 92173,San Ysidro,South Bay
 92182,San Diego,Point_Loma
