@@ -2,7 +2,7 @@ BA.2:
   name: "BA.2.X (Omicron)"
   members:
     - "BA.2"
-  color: "#6baed6"
+  color: "#08306b"
 
 BA.1.1:
   name: "BA.1.1.X (Omicron)"
@@ -14,7 +14,7 @@ BA.1:
   name: "BA.1 (Omicron)"
   members:
     - "BA.1"
-  color: "#08306b"
+  color: "#6baed6"
 
 B.1.1.529:
   name: "B.1.1.529 (Omicron)"
