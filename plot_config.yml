@@ -1,0 +1,34 @@
+BA.2:
+  name: "BA.2.X (Omicron)"
+  members:
+    - "BA.2"
+  color: "#6baed6"
+
+BA.1.1:
+  name: "BA.1.1.X (Omicron)"
+  members:
+    - "BA.1.1"
+  color: "#2171b5"
+
+BA.1:
+  name: "BA.1 (Omicron)"
+  members:
+    - "BA.1"
+  color: "#08306b"
+
+B.1.1.529:
+  name: "B.1.1.529 (Omicron)"
+  members:
+    - "B.1.1.529"
+  color: "#c6dbef"
+
+Delta:
+  name: "Delta"
+  members:
+    - "Delta"
+  color: "#E69F00"
+
+Other:
+  name: "Other"
+  members: null
+  color: "#009E73"
