@@ -14,7 +14,7 @@ BA.2.12.X:
   name: "BA.2.12.X (Omicron)"
   members:
     - "BA.2.12.X"
-  color: "#bddd98"
+  color: "#d0e6b5"
 
 BA.2.X:
   name: "BA.2.X (Omicron)"
@@ -44,7 +44,7 @@ Delta:
   name: "Delta"
   members:
     - "Delta"
-  color: "#E69F00"
+  color: "#ffe19d"
 
 Other:
   name: "Other"
