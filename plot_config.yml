@@ -1,26 +1,44 @@
-BA.2:
+BA.5:
+  name: "BA.5 (Omicron)"
+  members:
+    - "BA.5"
+  color: "#e21f26"
+
+BA.4:
+  name: "BA.4 (Omicron)"
+  members:
+    - "BA.4"
+  color: "#f57e20"
+
+BA.2.12.X:
+  name: "BA.2.12.X (Omicron)"
+  members:
+    - "BA.2.12.X"
+  color: "#bddd98"
+
+BA.2.X:
   name: "BA.2.X (Omicron)"
   members:
     - "BA.2"
-  color: "#08306b"
+  color: "#84bf40"
 
-BA.1.1:
+BA.1.1.X:
   name: "BA.1.1.X (Omicron)"
   members:
     - "BA.1.1"
-  color: "#2171b5"
+  color: "#dbedf9"
 
 BA.1:
   name: "BA.1 (Omicron)"
   members:
     - "BA.1"
-  color: "#6baed6"
+  color: "#4aa3e0"
 
 B.1.1.529:
   name: "B.1.1.529 (Omicron)"
   members:
     - "B.1.1.529"
-  color: "#c6dbef"
+  color: "#13496d"
 
 Delta:
   name: "Delta"
@@ -31,4 +49,4 @@ Delta:
 Other:
   name: "Other"
   members: null
-  color: "#009E73"
+  color: "#DDDDDD"
