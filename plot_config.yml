@@ -44,7 +44,7 @@ Delta:
   name: "Delta"
   members:
     - "Delta"
-  color: "#ffe19d"
+  color: "##ffd576"
 
 Other:
   name: "Other"
