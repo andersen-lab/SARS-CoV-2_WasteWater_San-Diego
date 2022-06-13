@@ -1,11 +1,11 @@
 BA.5:
-  name: "BA.5 (Omicron)"
+  name: "BA.5.X (Omicron)"
   members:
     - "BA.5"
   color: "#e21f26"
 
 BA.4:
-  name: "BA.4 (Omicron)"
+  name: "BA.4.X (Omicron)"
   members:
     - "BA.4"
   color: "#f57e20"
