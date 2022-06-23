@@ -20,7 +20,6 @@ BA.2.X:
   name: "BA.2.X (Omicron)"
   members:
     - "BA.2"
-    - "BA.2.X"
   color: "#84bf40"
 
 BA.1.1.X:
