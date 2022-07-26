@@ -1,13 +1,13 @@
 BA.5:
   name: "BA.5.X (Omicron)"
   members:
-    - "BA.5"
+    - "BA.5.X"
   color: "#e21f26"
 
 BA.4:
   name: "BA.4.X (Omicron)"
   members:
-    - "BA.4"
+    - "BA.4.X"
   color: "#f57e20"
 
 BA.2.12.X:
@@ -19,13 +19,13 @@ BA.2.12.X:
 BA.2.X:
   name: "BA.2.X (Omicron)"
   members:
-    - "BA.2"
+    - "BA.2.X"
   color: "#84bf40"
 
 BA.1.1.X:
   name: "BA.1.1.X (Omicron)"
   members:
-    - "BA.1.1"
+    - "BA.1.1.X"
   color: "#dbedf9"
 
 BA.1:
