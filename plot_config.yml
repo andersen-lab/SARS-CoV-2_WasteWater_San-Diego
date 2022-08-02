@@ -1,3 +1,8 @@
+BA.2.75:
+  name: "BA.2.75 (Omicron)"
+  members:
+    - "BA.2.75"
+  color: "#46196b" 
 BA.5:
   name: "BA.5.X (Omicron)"
   members:
