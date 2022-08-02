@@ -3,21 +3,21 @@ import pandas as pd
 import pandas.api.types as ptypes
 import yaml
 
-ENCINA_QPCR = "../Encina_sewage_qPCR.csv"
-ENCINA_SEQS = "../Encina_sewage_seqs.csv"
+ENCINA_QPCR = "Encina_sewage_qPCR.csv"
+ENCINA_SEQS = "Encina_sewage_seqs.csv"
 
-POINTLOMA_QPCR = "../PointLoma_sewage_qPCR.csv"
-POINTLOMA_SEQS = "../PointLoma_sewage_seqs.csv"
+POINTLOMA_QPCR = "PointLoma_sewage_qPCR.csv"
+POINTLOMA_SEQS = "PointLoma_sewage_seqs.csv"
 
-SOUTHBAY_QPCR = "../SouthBay_sewage_qPCR.csv"
-SOUTHBAY_SEQS = "../SouthBay_sewage_seqs.csv"
+SOUTHBAY_QPCR = "SouthBay_sewage_qPCR.csv"
+SOUTHBAY_SEQS = "SouthBay_sewage_seqs.csv"
 
 QPCR = [ENCINA_QPCR, POINTLOMA_QPCR, SOUTHBAY_QPCR]
 SEQS = [ENCINA_SEQS, POINTLOMA_SEQS, SOUTHBAY_SEQS]
 
 QPCR_COLUMNS = ["Sample_Date", "Mean viral gene copies/L"]
 
-SEQ_CONFIG = "../plot_config.yml"
+SEQ_CONFIG = "plot_config.yml"
 
 @pytest.fixture
 def qpcr_files():
