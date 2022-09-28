@@ -1,21 +1,11 @@
+# Colors already approved for dashboard but not used: "#46196b" 
+
 BF.7.X:
   name: "BF.7.X (Omicron)"
   members:
     - "BF.7.X"
-  # TODO please select new color!
   color: "#CBC3E3"
-
-BA.4.6:
-  name: "BA.4.6 (Omicron)"
-  members:
-    - "BA.4.6"
-  color: "#CBC3E3"
-
-BA.2.75:
-  name: "BA.2.75 (Omicron)"
-  members:
-    - "BA.2.75"
-  color: "#46196b" 
+  
 BA.5:
   name: "BA.5.X (Omicron)"
   members:
@@ -26,6 +16,7 @@ BA.4:
   name: "BA.4.X (Omicron)"
   members:
     - "BA.4.X"
+    - "BA.4.6"
   color: "#f57e20"
 
 BA.2.12.X:
