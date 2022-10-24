@@ -1,5 +1,18 @@
 # Colors already approved for dashboard but not used: "#46196b" 
 
+
+BQ.1.1.X:
+  name: "BQ.1.1.X (Omicron)"
+  members:
+    - "BQ.1.1.X"
+  color: "#FFBBED"
+
+BQ.1.X:
+  name: "BQ.1.X (Omicron)"
+  members:
+    - "BQ.1.X"
+  color: "#5C2D91"
+
 BF.7.X:
   name: "BF.7.X (Omicron)"
   members:
