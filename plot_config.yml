@@ -1,6 +1,18 @@
 # Configuration using colors from the Set1 palette. Right now the first six are used according to ColorBrewer2
 # Colors already approved for dashboard but not used: "#46196b"
 
+Recombinants:
+  name: "Recombinants"
+  members:
+    - "Recombinants"
+  color: "#000000"
+
+BN.1:
+  name: "BN.1.X"
+  members:
+    - "BN.1.X"
+  parent: "BA.2.X"
+
 BQ.1.1.X:
   name: "BQ.1.1.X (Omicron)"
   members:
