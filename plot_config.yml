@@ -5,6 +5,7 @@ Recombinants:
   name: "Recombinants"
   members:
     - "Recombinants"
+  color: "#000000"
 
 BN.1:
   name: "BN.1.X"
