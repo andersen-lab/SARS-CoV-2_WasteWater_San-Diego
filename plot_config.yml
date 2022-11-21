@@ -10,7 +10,7 @@ BN.1:
   name: "BN.1.X"
   members:
     - "BN.1.X"
-  parent: "BA.2"
+  parent: "BA.2.X"
 
 BQ.1.1.X:
   name: "BQ.1.1.X (Omicron)"
