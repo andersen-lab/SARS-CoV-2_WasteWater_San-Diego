@@ -7,6 +7,12 @@ Recombinants:
     - "Recombinants"
   color: "#6A6C6E"
 
+XBB.X:
+  name: "XBB.X"
+  members:
+    - "XBB.X"
+  color: "#6A6C6E"
+
 BN.1:
   name: "BN.1.X"
   members:
