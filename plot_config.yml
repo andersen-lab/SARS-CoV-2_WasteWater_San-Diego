@@ -2,7 +2,7 @@
 # Colors already approved for dashboard but not used: "#46196b"
 
 Recombinants:
-  name: "Recombinants"
+  name: "Other recombinants"
   members:
     - "Recombinants"
   color: "#6A6C6E"
