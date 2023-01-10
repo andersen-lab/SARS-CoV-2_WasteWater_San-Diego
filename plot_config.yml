@@ -6,6 +6,12 @@ Recombinants:
   members:
     - "Recombinants"
   color: "#6A6C6E"
+  
+XBB.1.5.X:
+  name: "XBB.1.5.X"
+  members:
+    - "XBB.1.5.X"
+  parent: "XBB.X"
 
 XBB.X:
   name: "XBB.X"
