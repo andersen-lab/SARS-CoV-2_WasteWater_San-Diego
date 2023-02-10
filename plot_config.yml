@@ -1,11 +1,5 @@
 # Configuration using colors from the Set1 palette. Right now the first six are used according to ColorBrewer2
 # Colors already approved for dashboard but not used: "#46196b", "#FFE30B"
-
-Recombinants:
-  name: "Other recombinants"
-  members:
-    - "Recombinants"
-  color: "#6A6C6E"
   
 XBB.1.5.X:
   name: "XBB.1.5.X"
@@ -18,12 +12,6 @@ XBB.X:
   members:
     - "XBB.X"
   color: "#e41a1c"
-
-BN.1:
-  name: "BN.1.X"
-  members:
-    - "BN.1.X"
-  parent: "BA.2.X"
 
 BQ.1.1.X:
   name: "BQ.1.1.X (Omicron)"
@@ -66,6 +54,7 @@ BA.2.X:
   name: "BA.2.X (Omicron)"
   members:
     - "BA.2.X"
+    - "BN.1.X"
   color: "#4daf4a"
 
 BA.1.1.X:
@@ -86,6 +75,13 @@ Delta:
   members:
     - "Delta"
   color: "#3b3c3d"
+  
+  
+Recombinants:
+  name: "Other recombinants"
+  members:
+    - "Recombinants"
+  color: "#6A6C6E"
 
 Other:
   name: "Other"
