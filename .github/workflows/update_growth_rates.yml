@@ -1,0 +1,51 @@
+name: growth rate calc
+
+on: push
+
+jobs:
+  testsuite:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@main
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup for conda
+        uses: conda-incubator/setup-miniconda@v2
+        with:        
+          auto-update-conda: true
+          channels: bioconda,conda-forge
+          channel-priority: true
+          python-version: 3.7
+          activate-environment: test
+
+      - name: Install
+        shell: bash -l {0}
+        run: |
+         if [[($(git status PointLoma_sewage_seqs.csv --porcelain | wc -c) -ne 0)]]; then
+          # if changes were made to the PL data
+          
+          conda install -n base conda-libmamba-solver
+          conda config --set solver libmamba
+          conda config --add channels bioconda
+          conda config --add channels conda-forge          
+          conda install freyja pandas
+          pip install -e . --no-deps 
+          conda activate test
+          python calc_relgrowthrates.py
+
+          # add and push changes
+
+          git config --local user.name "$GITHUB_ACTOR"
+          git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
+          git add rel_growth_rates.csv
+          git commit -m "growth rate calc"
+          git push origin master
+         else
+              echo "no changes were made, doing nothing."
+         fi; 
