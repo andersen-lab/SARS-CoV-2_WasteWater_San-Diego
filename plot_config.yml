@@ -1,7 +1,7 @@
 # Configuration using colors from the Set1 palette. Right now the first six are used according to ColorBrewer2
 # Colors already approved for dashboard but not used: "#46196b", "#FFE30B"
 
-XBB.1.9.X:
+XBB.1.16.X:
   name: "XBB.1.16.X"
   members:
     - "XBB.1.16.X"
