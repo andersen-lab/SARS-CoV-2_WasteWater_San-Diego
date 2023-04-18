@@ -2,6 +2,12 @@
 # Colors already approved for dashboard but not used: "#46196b", "#FFE30B"
 
 XBB.1.9.X:
+  name: "XBB.1.16.X"
+  members:
+    - "XBB.1.16.X"
+  parent: "XBB.X"
+
+XBB.1.9.X:
   name: "XBB.1.9.X"
   members:
     - "XBB.1.9.X"
