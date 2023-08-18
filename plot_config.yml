@@ -13,11 +13,17 @@ XBB.1.16.X:
     - "XBB.1.16.X"
   parent: "XBB.X"
 
+EG.5.X:
+  name: "EG.5.X"
+  members:
+    - "EG.5.X"
+  parent: "XBB.1.9.X"
+
 XBB.1.9.X:
   name: "XBB.1.9.X"
   members:
     - "XBB.1.9.X"
-  parent: "XBB.X"
+  color: "#FFC831"
   
 XBB.1.5.X:
   name: "XBB.1.5.X"
