@@ -1,5 +1,16 @@
 # Configuration using colors from the Set1 palette. Right now the first six are used according to ColorBrewer2
 # Colors already approved for dashboard but not used: "#46196b", "#FFE30B"
+EG.5.X:
+  name: "EG.5.X"
+  members:
+    - "EG.5.X"
+  parent: "XBB.1.9.X"
+
+XBB.1.9.X:
+  name: "XBB.1.9.X"
+  members:
+    - "XBB.1.9.X"
+  color: "#FFC831"
 
 XBB.2.3.X:
   name: "XBB.2.3.X"
@@ -12,18 +23,6 @@ XBB.1.16.X:
   members:
     - "XBB.1.16.X"
   parent: "XBB.X"
-
-EG.5.X:
-  name: "EG.5.X"
-  members:
-    - "EG.5.X"
-  parent: "XBB.1.9.X"
-
-XBB.1.9.X:
-  name: "XBB.1.9.X"
-  members:
-    - "XBB.1.9.X"
-  color: "#FFC831"
   
 XBB.1.5.X:
   name: "XBB.1.5.X"
