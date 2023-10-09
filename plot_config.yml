@@ -6,6 +6,12 @@ BA.2.86.X:
     - "BA.2.86.X"
   parent: "BA.2.X"
 
+HV.1.X:
+  name: "HV.1.X"
+  members:
+    - "HV.1.X"
+  parent: "XBB.1.9.X"
+
 EG.5.X:
   name: "EG.5.X"
   members:
@@ -16,7 +22,7 @@ XBB.1.9.X:
   name: "XBB.1.9.X"
   members:
     - "XBB.1.9.X"
-  color: "#FFC831"
+  color: "#ffb731"
 
 XBB.2.3.X:
   name: "XBB.2.3.X"
