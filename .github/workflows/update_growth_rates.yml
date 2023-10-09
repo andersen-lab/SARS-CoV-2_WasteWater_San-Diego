@@ -35,8 +35,6 @@ jobs:
           conda config --add channels bioconda
           conda config --add channels conda-forge          
           conda install freyja pandas
-          pip install -e . --no-deps 
-          conda activate test
           python calc_relgrowthrates.py
 
           # add and push changes
