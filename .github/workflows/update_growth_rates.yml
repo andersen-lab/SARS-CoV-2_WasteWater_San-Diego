@@ -1,6 +1,10 @@
 name: growth rate calc
 
-on: push
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
 
 jobs:
   testsuite:
@@ -27,9 +31,6 @@ jobs:
       - name: Install
         shell: bash -l {0}
         run: |
-         if [[($(git status PointLoma_sewage_seqs.csv --porcelain | wc -c) -ne 0)]]; then
-          # if changes were made to the PL data
-          
           conda install -n base conda-libmamba-solver
           conda config --set solver libmamba
           conda config --add channels bioconda
@@ -44,6 +45,3 @@ jobs:
           git add rel_growth_rates.csv
           git commit -m "growth rate calc"
           git push origin master
-         else
-              echo "no changes were made, doing nothing."
-         fi; 
