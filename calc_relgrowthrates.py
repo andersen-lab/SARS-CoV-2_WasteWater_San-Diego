@@ -1,5 +1,7 @@
 import pandas as pd 
 from freyja.utils import calc_rel_growth_rates
+import numpy as np
+np.random.seed(1)
 
 #growth rate calc based on PL data
 agg_df = pd.read_csv('PointLoma_sewage_seqs.csv',header=0,skipinitialspace=True,index_col='Date') 
