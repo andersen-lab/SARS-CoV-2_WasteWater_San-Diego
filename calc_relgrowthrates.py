@@ -13,7 +13,7 @@ agg_df = agg_df.drop(columns=['Alpha','Omicron','Delta'])
 daysIncluded = 56 # Use last 8 weeks of sample data
 
 import datetime
-h = pd.to_datetime(datetime.datetime.now()-datetime.timedelta(days=daysIncluded))
+h = pd.to_datetime(agg_df.index[-1]-datetime.timedelta(days=daysIncluded))
 agg_df = agg_df.loc[agg_df.index>h]
 
 nboots = 1000
