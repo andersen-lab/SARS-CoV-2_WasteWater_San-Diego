@@ -1,5 +1,23 @@
 # Configuration using colors from the Set1 palette. Right now the first six are used according to ColorBrewer2
 # Colors already approved for dashboard but not used: "#46196b", "#FFE30B"
+KQ.1.X:
+  name: "KQ.1.X"
+  members:
+    - "KQ.1.X"
+  parent: "JN.1.X"
+
+JN.1.4.X:
+  name: "JN.1.4.X"
+  members:
+    - "JN.1.4.X"
+  parent: "JN.1.X"
+
+JN.1.7.X:
+  name: "JN.1.7.X"
+  members:
+    - "JN.1.7.X"
+  parent: "JN.1.X"
+
 JN.1.X:
   name: "JN.1.X"
   members:
@@ -114,7 +132,20 @@ BA.1:
 Delta:
   name: "Delta"
   members:
-    - "Delta"
+    - "AY.113"
+    - "AY.100"
+    - "AY.20"
+    - "AY.25"
+    - "AY.3"
+    - "AY.44"
+    - "AY.119"
+    - "AY.3.1"
+    - "AY.103"
+    - "AY.46.4"
+    - "AY.25.1"
+    - "AY.116"
+    - "AY.43.4"
+    - "Other Delta sub-lineages"
   color: "#3b3c3d"
   
   
