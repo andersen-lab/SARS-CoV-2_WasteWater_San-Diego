@@ -84,27 +84,29 @@ XBB.X:
     - "XBB.X"
   color: "#e41a1c"
 
-BQ.1.1.X:
-  name: "BQ.1.1.X"
-  members:
-    - "BQ.1.1.X"
-  parent: "BA.5"
+# BQ.1.1.X:
+#   name: "BQ.1.1.X"
+#   members:
+#     - "BQ.1.1.X"
+#   parent: "BA.5"
 
 BQ.1.X:
   name: "BQ.1.X"
   members:
+    - "BQ.1.1.X"
     - "BQ.1.X"
   parent: "BA.5"
 
-BF.7.X:
-  name: "BF.7.X"
-  members:
-    - "BF.7.X"
-  parent: "BA.5"
+# BF.7.X:
+#   name: "BF.7.X"
+#   members:
+#     - "BF.7.X"
+#   parent: "BA.5"
 
 BA.5:
   name: "BA.5.X"
   members:
+    - "BF.7.X"
     - "BA.5.X"
   color: "#984ea3"
 
@@ -115,28 +117,30 @@ BA.4:
     - "BA.4.6"
   color: "#ff7f00"
 
-BA.2.12.X:
-  name: "BA.2.12.X"
-  members:
-    - "BA.2.12.X"
-  parent: "BA.2.X"
+# BA.2.12.X:
+#   name: "BA.2.12.X"
+#   members:
+#     - "BA.2.12.X"
+#   parent: "BA.2.X"
 
 BA.2.X:
   name: "BA.2.X"
   members:
+    - "BA.2.12.X"
     - "BA.2.X"
     - "BN.1.X"
   color: "#4daf4a"
 
-BA.1.1.X:
-  name: "BA.1.1.X"
-  members:
-    - "BA.1.1.X"
-  parent: "BA.1"
+# BA.1.1.X:
+#   name: "BA.1.1.X"
+#   members:
+#     - "BA.1.1.X"
+#   parent: "BA.1"
 
 BA.1:
   name: "BA.1"
   members:
+    - "BA.1.1.X"
     - "BA.1"
     - "B.1.1.529"
   color: "#377eb8"

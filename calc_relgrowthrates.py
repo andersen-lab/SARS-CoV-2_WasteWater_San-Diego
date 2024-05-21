@@ -7,7 +7,7 @@ np.random.seed(1)
 agg_df = pd.read_csv('PointLoma_sewage_seqs.csv',header=0,skipinitialspace=True,index_col='Date') 
 agg_df.index = pd.to_datetime(agg_df.index)
 #drop VOC aggregations. 
-agg_df = agg_df.drop(columns=['Alpha','Omicron','Delta'])
+# agg_df = agg_df.drop(columns=['Alpha','Omicron','Delta'])
 
 #restrict to more recent samples in case this gets big. 
 daysIncluded = 56 # Use last 8 weeks of sample data
