@@ -6,7 +6,7 @@ KP.3.X:
     - "KP.3.X"
   parent: "JN.1.X"
 
-JN.1.11.X:
+JN.1.16.X:
   name: "JN.1.16.X"
   members:
     - "JN.1.16.X"
