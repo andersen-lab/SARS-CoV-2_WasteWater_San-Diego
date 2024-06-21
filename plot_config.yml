@@ -1,5 +1,17 @@
 # Configuration using colors from the Set1 palette. Right now the first six are used according to ColorBrewer2
 # Colors already approved for dashboard but not used: "#46196b", "#FFE30B"
+KP.3.X:
+  name: "KP.3.X"
+  members:
+    - "KP.3.X"
+  parent: "JN.1.X"
+
+JN.1.16.X:
+  name: "JN.1.16.X"
+  members:
+    - "JN.1.16.X"
+  parent: "JN.1.X"
+
 KP.2.X:
   name: "KP.2.X"
   members:
@@ -24,16 +36,17 @@ JN.1.4.X:
     - "JN.1.4.X"
   parent: "JN.1.X"
 
-JN.1.7.X:
-  name: "JN.1.7.X"
-  members:
-    - "JN.1.7.X"
-  parent: "JN.1.X"
+# JN.1.7.X:
+#   name: "JN.1.7.X"
+#   members:
+#     - "JN.1.7.X"
+#   parent: "JN.1.X"
 
 JN.1.X:
   name: "JN.1.X"
   members:
     - "JN.1.X"
+    - "JN.1.7.X"
   parent: "BA.2.86.X"
 
 BA.2.86.X:
