@@ -24,23 +24,23 @@ KP.2.X:
     - "KP.2.X"
   parent: "JN.1.X"
 
-JN.1.11.X:
-  name: "JN.1.11.X"
-  members:
-    - "JN.1.11.X"
-  parent: "JN.1.X"
+# JN.1.11.X:
+#   name: "JN.1.11.X"
+#   members:
+#     - "JN.1.11.X"
+#   parent: "JN.1.X"
 
-KQ.1.X:
-  name: "KQ.1.X"
-  members:
-    - "KQ.1.X"
-  parent: "JN.1.X"
+# KQ.1.X:
+#   name: "KQ.1.X"
+#   members:
+#     - "KQ.1.X"
+#   parent: "JN.1.X"
 
-JN.1.4.X:
-  name: "JN.1.4.X"
-  members:
-    - "JN.1.4.X"
-  parent: "JN.1.X"
+# JN.1.4.X:
+#   name: "JN.1.4.X"
+#   members:
+#     - "JN.1.4.X"
+#   parent: "JN.1.X"
 
 # JN.1.7.X:
 #   name: "JN.1.7.X"
@@ -53,6 +53,9 @@ JN.1.X:
   members:
     - "JN.1.X"
     - "JN.1.7.X"
+    - "KQ.1.X"
+    - "JN.1.4.X"
+    - "JN.1.11.X"
   parent: "BA.2.86.X"
 
 BA.2.86.X:
