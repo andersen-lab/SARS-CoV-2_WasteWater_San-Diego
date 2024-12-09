@@ -19,11 +19,12 @@ jobs:
 
       - name: Setup for conda
         uses: conda-incubator/setup-miniconda@v2
-        with:        
+        with:
+          miniforge-version: "latest"
           auto-update-conda: true
           channels: bioconda,conda-forge
           channel-priority: true
-          python-version: 3.7
+          python-version: '3.10'
           activate-environment: test
 
       - name: Install
