@@ -1,22 +1,29 @@
 # Configuration using colors from the Set1 palette. Right now the first six are used according to ColorBrewer2
 # Colors already approved for dashboard but not used: "#46196b", "#FFE30B"
-LP.8.1.X:
-  name: "LP.8.1.X"
+# LP.8.1.X:
+#   name: "LP.8.1.X"
+#   members:
+#     - "LP.8.1.X"
+#   parent: "KP.1.1.X"
+
+LP.8.X:
+  name: "LP.8.X"
   members:
+    - "LP.8.X"
     - "LP.8.1.X"
   parent: "KP.1.1.X"
-
-XEC.X:
-  name: "XEC.X"
-  members:
-    - "XEC.X"
-  color: "#FF00FF"
 
 KP.1.1.X:
   name: "KP.1.1.X"
   members:
     - "KP.1.1.X"
   color: "#ff7f00"
+
+XEC.X:
+  name: "XEC.X"
+  members:
+    - "XEC.X"
+  color: "#FF00FF"
 
 KP.3.1.1.X:
   name: "KP.3.1.1.X"
