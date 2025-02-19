@@ -3,7 +3,7 @@
 LP.8.1.X:
   name: "LP.8.1.X"
   members:
-    - "KP.1.1.X"
+    - "LP.8.1.X"
   parent: "KP.1.1.X"
 
 XEC.X:
