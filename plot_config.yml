@@ -16,7 +16,7 @@ KP.1.1.X:
   name: "KP.1.1.X"
   members:
     - "KP.1.1.X"
-  color: "JN.1.X"
+  color: "#ff7f00"
 
 KP.3.1.1.X:
   name: "KP.3.1.1.X"
