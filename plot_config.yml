@@ -161,6 +161,8 @@ BA.5:
 BA.2.X:
   name: "BA.2.X"
   members:
+    - "BA.4.X"
+    - "BA.4.6"
     - "BA.2.12.X"
     - "BA.2.X"
     - "BN.1.X"
