@@ -112,11 +112,11 @@ XBB.1.9.X:
 #     - "XBB.1.16.X"
 #   parent: "XBB.X"
   
-XBB.1.5.X:
-  name: "XBB.1.5.X"
-  members:
-    - "XBB.1.5.X"
-  parent: "XBB.X"
+# XBB.1.5.X:
+#   name: "XBB.1.5.X"
+#   members:
+#     - "XBB.1.5.X"
+#   parent: "XBB.X"
 
 XBB.X:
   name: "XBB.X"
@@ -124,6 +124,7 @@ XBB.X:
     - "XBB.X"
     - "XBB.2.3.X"
     - "XBB.1.16.X"
+    - "XBB.1.5.X"
   color: "#e41a1c"
 
 # BQ.1.1.X:
