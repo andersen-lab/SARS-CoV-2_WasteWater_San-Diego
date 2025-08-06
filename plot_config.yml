@@ -3,25 +3,13 @@
 NB.1.8.1.X:
   name: "NB.1.8.1.X"
   members:
-    - "NB.1.8.1*"
+    - "NB.1.8.1.X"
   color: "#b03a2e"
 
 XFG.X:
   name: "XFG.X"
   members:
-    - "XFG*"
-  color: "#00008B"
-
-LP.8.1.X:
-  name: "LP.8.1.X"
-  members:
-    - "LP.8.1*"
-  parent: "KP.1.X"
-
-XFG.X:
-  name: "XFG.X"
-  members:
-    - "XFG*"
+    - "XFG.X"
   color: "#000000"
 
 LP.8.X:
